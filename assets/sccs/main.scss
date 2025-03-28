@@ -41,11 +41,22 @@ address {
   margin-bottom: 10px;
   line-height: 1.8;
 }
+main {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 0;
+}
 
+.clearfix {
+  zoom: 1;
+}
 .footer {
+  margin: 40px 10px;
+  position: relative;
+  width: 1140px;
   display: grid;
   grid-template-columns: 500px repeat(3, 1fr);
-  margin: 40px 10px;
+  gap: 16px;
 }
 
 .air p {
